@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+
+
+.status{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color:#7E7E7E;
+  height: 5%;
+  width: 50%;
+  border-radius: 0 20% 20% 0 ;
+  position: absolute;
+  top: 10px;
+  left:  0px;
+}
+
+.character-card{
+  position: relative;
+  width: 437px;
+  height: 626px;
+  background-color: #062226;
+
+}
+img{
+  width: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 10px;
+}
+.name{
+   text-align: center;
+   border-bottom: solid white 2px;
+   width: 98%;
+}
+.conteiner-main{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.conteiner-fearures{
+  display: flex;
+ flex-wrap: wrap;
+ gap:30px;
+ width: 80%;
+ margin: 0 auto;
+}
+.caratula{
+  width: 100vw;
+  height: 50vh;
+ position: relative;
+ top: -30px;
+ right: 150px;
+}
+input{ 
+  color: black;
+width: 50%;
+height: 30px;
+margin-top: 10px;
+}
+button{
+  color: black;
+  height: 50px;
+  width: 90px;
+}
+
+.locationFeatures{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #062226;
+  height: 100px;
+  margin-top: 40px;
+  width: 80%;
+}
+
+.locationFeatures>div{
+  text-align: start;
+  padding: 10px;
+}
