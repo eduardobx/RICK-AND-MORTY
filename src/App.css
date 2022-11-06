@@ -1,9 +1,8 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+ 
+  margin:0;
   text-align: center;
-
+  padding: 0%;
 }
 
 
@@ -27,11 +26,16 @@ h4{
   left:  0px;
 }
 
+
 .character-card{
   position: relative;
   width: 437px;
   height: 626px;
   background-color: #062226;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 1px 11px 6px rgba(46,222,31,0.67);
+
 
 }
 img{
@@ -61,29 +65,37 @@ ul{
   gap: 100px;
 }
 .conteiner-fearures{
-  display: flex;
+ display: flex;
  flex-wrap: wrap;
+ justify-content: center;
  gap:30px;
  width: 80%;
  margin: 0 auto;
 }
-.caratula{
-  width: 100vw;
-  height: 50vh;
- position: relative;
- top: -30px;
- right: 80px;
-}
+
 input{ 
   color: black;
 width: 50%;
-height: 30px;
-margin-top: 10px;
+height: 40px;
+box-shadow: 2px 1px 11px 6px rgba(46,222,31,0.67);
+text-align: center;
+}
+form{
+  width: 50%;
+  text-align: start;
+  height: 100px;
+  background-color: rgba(0,0,0,0.4) ;
+  overflow-x: hidden;
+  position: absolute;
+  margin-left:330px;
+  box-shadow: 2px 1px 11px 6px rgba(46,222,31,0.67);
 }
 button{
   color: black;
-  height: 50px;
+  height: 60px;
   width: 90px;
+  border-radius: 40px;
+  
 }
 
 .locationFeatures{
@@ -92,12 +104,27 @@ button{
   justify-content: space-evenly;
   align-items: center;
   background-color: #062226;
-  height: 100px;
+  height: 130px;
   margin-top: 40px;
   width: 80%;
+
 }
 
 .locationFeatures>div{
   text-align: start;
   padding: 10px;
+}
+
+.img-back{
+  background-image: url( "https://s3-alpha-sig.figma.com/img/2838/9946/263f7612d0101b6aa67c8b9f233f19fb?Expires=1668384000&Signature=GK-oJbP5YK12Uo~3EeAmAY-DQ7PrKu21hO6u67biQTmRdFnRMEiuPqsu8NvfIc79Ci8S5B9S25nKaxBdjlQgOtTCbOQlIjSYF01qQgEICeqDojHgraFBcQwC1jvkm3d7OQhAyHcr8qL5WBbPWGGgvj7cDBxuGnDXMecHnGAJ2raYQTLHSphEpo5ZX7VQAWEhcXcXBY~0g0jBLDM~cXzKfWW-N3blJH5mTok~CWXU7vTwFtr~Ik-FlZ6Rd5OF2RZVcF9NIHp~qld-k2LTC4oeTwqJlKu1tV57Xu9IOA752W~g9E3SUgAKpyJ8-VhmvdReWcMzjSbS~R-A8l9xdyLFAg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  display: flex;
+  align-items: flex-end;
+ 
+}
+.img-back>div{
+  width: 100%;
 }
