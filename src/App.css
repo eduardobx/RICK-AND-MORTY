@@ -83,7 +83,7 @@ text-align: center;
 form{
   width: 50%;
   text-align: start;
-  height: 100px;
+   max-height: 100px;
   background-color: rgba(0,0,0,0.4) ;
   overflow-x: hidden;
   position: absolute;
@@ -116,7 +116,7 @@ button{
 }
 
 .img-back{
-  background-image: url( "https://s3-alpha-sig.figma.com/img/2838/9946/263f7612d0101b6aa67c8b9f233f19fb?Expires=1668384000&Signature=GK-oJbP5YK12Uo~3EeAmAY-DQ7PrKu21hO6u67biQTmRdFnRMEiuPqsu8NvfIc79Ci8S5B9S25nKaxBdjlQgOtTCbOQlIjSYF01qQgEICeqDojHgraFBcQwC1jvkm3d7OQhAyHcr8qL5WBbPWGGgvj7cDBxuGnDXMecHnGAJ2raYQTLHSphEpo5ZX7VQAWEhcXcXBY~0g0jBLDM~cXzKfWW-N3blJH5mTok~CWXU7vTwFtr~Ik-FlZ6Rd5OF2RZVcF9NIHp~qld-k2LTC4oeTwqJlKu1tV57Xu9IOA752W~g9E3SUgAKpyJ8-VhmvdReWcMzjSbS~R-A8l9xdyLFAg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-image: url("./assets/263f7612d0101b6aa67c8b9f233f19fb.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
