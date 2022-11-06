@@ -3,7 +3,8 @@ import "./App.css";
 import axios from "axios";
 import CharacterUrl from "./components/CharacterUrl";
 import LocationFeatures from "./components/LocationFeatures";
-import Name from "./components/Name";
+import Footer from "./components/Footer";
+
 
 function App() {
   const [location, setLocation] = useState([]);
@@ -83,6 +84,7 @@ function App() {
           ))}
         </main>
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -89,6 +89,10 @@ form{
   position: absolute;
   margin-left:330px;
   box-shadow: 2px 1px 11px 6px rgba(46,222,31,0.67);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
 }
 button{
   color: black;
@@ -127,4 +131,30 @@ button{
 }
 .img-back>div{
   width: 100%;
+}
+footer {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: black;
+  padding: 5rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+footer h3 {
+  border-bottom: 1px solid rgba(0, 255, 8, 0.637);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgba(0, 255, 8, 0.716);
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+footer p {
+  font-size: 2rem;
+  color: rgb(0, 255, 8);
+  margin-bottom: 0;
 }
