@@ -71,7 +71,7 @@ function App() {
                 onChange={idCharacter}
                 placeholder="write a location id"
               />
-              <button onClick={seacrhType}>seacrh</button>
+              <button onClick={seacrhType}>search</button>
               {suggestions()}
             </div>
           </div>
