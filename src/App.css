@@ -156,8 +156,19 @@ button{
 @media(max-width:480px){
 
  .locationFeatures{width: 100%;
+  width: 75%;
+  height: 150px;
    font-weight: 100;
-  font-size: small;} 
+  font-size: small;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   
+  } 
+  .locationFeatures>div{
+    width: 100%;
+    margin-left: 30px;
+  }
 }
 
 .locationFeatures>div{
