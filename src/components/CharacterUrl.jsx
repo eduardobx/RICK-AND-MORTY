@@ -19,7 +19,7 @@ const CharacterUrl = ({ url }) => {
       <img src={character.image} alt="" />
       <ul>
         <li className="name"><b> {character.name}</b></li>
-        <li>birtplace<br />
+        <li> <b> birtplace</b> <br />
         {character.origin?.name}</li>
         <li><b>number of episodes where it</b> <br />
         {character?.episode?.length}</li>

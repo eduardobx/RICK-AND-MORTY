@@ -29,14 +29,20 @@ h4{
 
 .character-card{
   position: relative;
-  width: 437px;
-  height: 626px;
+  width: 400px;
+  height: 600px;
   background-color: #062226;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 2px 1px 11px 6px rgba(46,222,31,0.67);
+}
 
-
+@media (max-width:480px) {
+  .character-card{
+    width: 300px;
+    height:500px ;
+  }
+  
 }
 img{
   width: 100%;
@@ -58,6 +64,8 @@ ul{
    text-align: center;
    border-bottom: solid white 2px;
    width: 98%;
+   font-size: larger;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .conteiner-main{
   display: flex;
@@ -85,15 +93,46 @@ form{
   width: 50%;
   text-align: start;
    max-height: 100px;
-  background-color: rgba(0,0,0,0.4) ;
+  background-color: rgba(0,0,0,0.9) ;
   overflow-x: hidden;
   position: absolute;
-  margin-left:330px;
+  left:330px;
   box-shadow: 2px 1px 11px 6px rgba(46,222,31,0.67);
   display: flex;
   flex-direction: column;
   gap: 5px;
   padding: 5px;
+}
+
+@media (max-width:480px) {
+  .mdeida-q{
+     position:relative;
+     right: -50px;
+     left: auto;
+     max-height: 200px;
+     gap:0;
+  }
+
+  form>div{
+    padding: 0px;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+}
+
+
+form > div{
+  width: 100%;
+  padding: 8px;
+  padding-right: 0%;
+  font-family:fantasy;
+  letter-spacing: 2px;
+  font-size: medium;
+}
+form > div:hover{
+   background-color: #777879;
+   box-shadow: 2px 1px 11px 6px rgba(46,222,31,0.67);
 }
 button{
   color: black;
@@ -113,6 +152,12 @@ button{
   margin-top: 40px;
   width: 80%;
 
+}
+@media(max-width:480px){
+
+ .locationFeatures{width: 100%;
+   font-weight: 100;
+  font-size: small;} 
 }
 
 .locationFeatures>div{

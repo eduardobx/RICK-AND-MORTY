@@ -46,7 +46,7 @@ function App() {
   const suggestions = () => {
     if (idLocation !== "") {
       return (
-        <form>
+        <form className="mdeida-q">
           {name.map((index) => (
             <div key={index} onClick={newlocation}>
               {index}
